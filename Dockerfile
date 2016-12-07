@@ -6,7 +6,7 @@ RUN apt-get update -y
 
 #Installs PHP5.6, some extensions and apcu.
 RUN apt-get install -y software-properties-common
-RUN add-apt-repository ppa:ondrej/php5-5.6
+RUN add-apt-repository ppa:ondrej/php
 RUN apt-get install -y vim
 RUN apt-get install -y php5  php5-dev
 
